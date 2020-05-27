@@ -1,353 +1,118 @@
 {
-  "id": "394fe4c9-3a47-4223-bff2-c36112e0fc18",
+  "id": "905b7619-0b26-4756-bf2a-0a453518ce11",
   "version": "2.0",
-  "name": "Test2",
-  "url": "http://localhost:4000",
+  "name": "Test2.side",
+  "url": "http://localhost:3000",
   "tests": [{
-    "id": "3c039009-c6db-4be4-bbcd-21c4ae08efaf",
-    "name": "Test",
+    "id": "6e29b12b-aa2c-4a9f-8c6a-39f88b8b4dc4",
+    "name": "test1",
     "commands": [{
-      "id": "19d4017a-12c0-4bdd-88b4-25e6ce23228d",
+      "id": "e74f7364-feeb-4976-a69a-001cdf6322dc",
       "comment": "",
       "command": "open",
       "target": "/",
       "targets": [],
       "value": ""
     }, {
-      "id": "b08b16a5-03a6-4f66-af82-484ced9a82e2",
+      "id": "75926e11-620b-4566-8d87-391dbf26f007",
       "comment": "",
       "command": "setWindowSize",
       "target": "550x571",
       "targets": [],
       "value": ""
     }, {
-      "id": "24b8f0d8-397d-47c3-b551-4c7fd9e04bd3",
+      "id": "ec4d986b-3dc4-4e6a-ac41-ad11d0906ee7",
       "comment": "",
       "command": "click",
-      "target": "css=.alert-danger .form-check-input",
+      "target": "css=tr:nth-child(1) input",
       "targets": [
-        ["css=.alert-danger .form-check-input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[2]/form/label[3]/div/input", "xpath:idRelative"],
-        ["xpath=//label[3]/div/input", "xpath:position"]
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "b836b5a3-5e64-4704-a900-06d27c65d199",
-      "comment": "",
-      "command": "click",
-      "target": "css=.alert-success .form-check-input",
-      "targets": [
-        ["css=.alert-success .form-check-input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[2]/form/label[2]/div/input", "xpath:idRelative"],
-        ["xpath=//label[2]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "3e92dc86-fda6-4b9c-8872-751181d1d1ef",
+      "id": "f4a4846f-b296-4826-ae5c-6bc8bdb364fd",
       "comment": "",
       "command": "click",
       "target": "css=.form-control",
       "targets": [
         ["css=.form-control", "css:finder"],
         ["xpath=//input[@value='']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
+        ["xpath=//div[@id='root']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "97e0b20a-f77a-434e-9516-3088ee548694",
+      "id": "97262a67-e9d5-4df8-8bfa-ef7fe8ceed90",
       "comment": "",
       "command": "type",
       "target": "css=.form-control",
       "targets": [
         ["css=.form-control", "css:finder"],
-        ["xpath=//input[@value='India']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
+        ["xpath=//input[@value='Russia']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
       ],
-      "value": "India"
+      "value": "Russia"
     }, {
-      "id": "14f576bd-435a-4ed0-9f8b-51ec8ca3b5b4",
+      "id": "055b9a4b-5035-4ae1-8d49-def5735aba3c",
       "comment": "",
       "command": "click",
       "target": "css=td > input",
       "targets": [
         ["css=td > input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[6]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[5]/div/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/table/tbody/tr/td/input", "xpath:idRelative"],
         ["xpath=//td/input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "aa2bfb5a-dada-450e-bfa9-8de586864a02",
+      "id": "b3a70ea5-4ee0-4f80-8da7-2c190403130c",
       "comment": "",
       "command": "click",
       "target": "css=.form-control",
       "targets": [
         ["css=.form-control", "css:finder"],
-        ["xpath=//input[@value='India']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
+        ["xpath=//input[@value='Russia']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "f2c125aa-aaec-4278-bf45-91cced2be467",
+      "id": "f06c5131-609a-4b8a-a7a1-a788e42b81d8",
       "comment": "",
       "command": "type",
-      "target": "css=.form-control",
-      "targets": [
-        ["css=.form-control", "css:finder"],
-        ["xpath=//input[@value='Unit']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
-      ],
-      "value": "Unit"
-    }, {
-      "id": "b14bc2db-f128-4586-b91f-8f40ce9687c8",
-      "comment": "",
-      "command": "click",
-      "target": "css=tr:nth-child(1) input",
-      "targets": [
-        ["css=tr:nth-child(1) input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[6]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[5]/div/div/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//td/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "b40ea036-47ff-4ae8-9f46-02c6b7adbce5",
-      "comment": "",
-      "command": "click",
-      "target": "css=.form-control",
-      "targets": [
-        ["css=.form-control", "css:finder"],
-        ["xpath=//input[@value='Unit']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "4ad08b8f-9aa0-47c6-9073-8c7def4bfdbe",
-      "comment": "",
-      "command": "type",
-      "target": "css=.form-control",
-      "targets": [
-        ["css=.form-control", "css:finder"],
-        ["xpath=//input[@value='Isra']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
-      ],
-      "value": "Isra"
-    }, {
-      "id": "0e2bcf54-678a-43e3-83b7-38214b707e47",
-      "comment": "",
-      "command": "click",
-      "target": "css=.btn",
-      "targets": [
-        ["css=.btn", "css:finder"],
-        ["xpath=//div[@id='root']/div/div[4]/form/button", "xpath:idRelative"],
-        ["xpath=//button", "xpath:position"],
-        ["xpath=//button[contains(.,'Reset Filters')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "b5ecb2a8-cd04-4803-b3f9-2e776b863bc0",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,307)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "cb825231-5d32-4edc-890b-06627cd11756",
-      "comment": "",
-      "command": "click",
       "target": "css=.form-control",
       "targets": [
         ["css=.form-control", "css:finder"],
         ["xpath=//input[@value='']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
+        ["xpath=//div[@id='root']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "4c69fad2-0417-4769-b4d9-7db40a091fbc",
-      "comment": "",
-      "command": "type",
-      "target": "css=.form-control",
-      "targets": [
-        ["css=.form-control", "css:finder"],
-        ["xpath=//input[@value='isra']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
-      ],
-      "value": "isra"
-    }, {
-      "id": "50e3d238-7944-494e-b3ec-96f95aca230e",
+      "id": "6a499483-b6eb-4807-996f-5854bb030bf6",
       "comment": "",
       "command": "click",
-      "target": "css=td > input",
+      "target": "css=.form-inline",
       "targets": [
-        ["css=td > input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[6]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[5]/div/div/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//td/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "dc7d168a-cf29-4ced-b90b-8ca14ee643b5",
-      "comment": "",
-      "command": "click",
-      "target": "css=.alert-danger .form-check-input",
-      "targets": [
-        ["css=.alert-danger .form-check-input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[2]/form/label[3]/div/input", "xpath:idRelative"],
-        ["xpath=//label[3]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "de1c3b81-0688-42ba-bb7e-da6fa6386f4b",
-      "comment": "",
-      "command": "click",
-      "target": "css=.alert-success .form-check-input",
-      "targets": [
-        ["css=.alert-success .form-check-input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[2]/form/label[2]/div/input", "xpath:idRelative"],
-        ["xpath=//label[2]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "152b9839-4a50-4220-99d6-6dd4c5163594",
-      "comment": "",
-      "command": "click",
-      "target": "css=.form-control",
-      "targets": [
-        ["css=.form-control", "css:finder"],
-        ["xpath=//input[@value='isra']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "bf43cc51-0391-4708-9001-5037c2923ecb",
-      "comment": "",
-      "command": "type",
-      "target": "css=.form-control",
-      "targets": [
-        ["css=.form-control", "css:finder"],
-        ["xpath=//input[@value='india']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
-      ],
-      "value": "india"
-    }, {
-      "id": "a84b6308-ad21-447c-bc0c-0495505797e6",
-      "comment": "",
-      "command": "click",
-      "target": "css=td > input",
-      "targets": [
-        ["css=td > input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[6]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[5]/div/div/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//td/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "95a61f08-af93-42ad-b1a0-8b26315d447c",
-      "comment": "",
-      "command": "click",
-      "target": "css=.form-control",
-      "targets": [
-        ["css=.form-control", "css:finder"],
-        ["xpath=//input[@value='india']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "8d77fc24-b62c-41c7-ac23-4a33ae5c480a",
-      "comment": "",
-      "command": "type",
-      "target": "css=.form-control",
-      "targets": [
-        ["css=.form-control", "css:finder"],
-        ["xpath=//input[@value='Uni']", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[4]/form/div/input", "xpath:idRelative"],
-        ["xpath=//form/div/input", "xpath:position"]
-      ],
-      "value": "Uni"
-    }, {
-      "id": "3de384b9-6b99-4253-a069-01b0bd16c28d",
-      "comment": "",
-      "command": "click",
-      "target": "css=tr:nth-child(1) input",
-      "targets": [
-        ["css=tr:nth-child(1) input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[6]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[5]/div/div/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//td/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "a09bf26f-8784-4e35-8e76-19c57e040deb",
-      "comment": "",
-      "command": "click",
-      "target": "css=.alert-success .form-check-input",
-      "targets": [
-        ["css=.alert-success .form-check-input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[2]/form/label[2]/div/input", "xpath:idRelative"],
-        ["xpath=//label[2]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "3c435abe-05cd-498f-bf47-277041a72932",
-      "comment": "",
-      "command": "click",
-      "target": "css=.alert-warning > .form-group",
-      "targets": [
-        ["css=.alert-warning > .form-group", "css:finder"],
-        ["xpath=//div[@id='root']/div/div[2]/form/label/div", "xpath:idRelative"],
-        ["xpath=//label/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "00c4be5f-3c88-4b3a-b3e3-74cb5c764a1c",
-      "comment": "",
-      "command": "click",
-      "target": "css=.alert-danger .form-check-input",
-      "targets": [
-        ["css=.alert-danger .form-check-input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[2]/form/label[3]/div/input", "xpath:idRelative"],
-        ["xpath=//label[3]/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "6c4d0f04-a4ba-444e-898c-661662bf8a2f",
-      "comment": "",
-      "command": "click",
-      "target": "css=.alert-success .form-check-input",
-      "targets": [
-        ["css=.alert-success .form-check-input", "css:finder"],
-        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
-        ["xpath=//div[@id='root']/div/div[2]/form/label[2]/div/input", "xpath:idRelative"],
-        ["xpath=//label[2]/div/input", "xpath:position"]
+        ["css=.form-inline", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
       ],
       "value": ""
     }]
   }],
   "suites": [{
-    "id": "fda5163c-43ab-41cd-b796-7be3087cf57d",
+    "id": "ae879a7b-81c8-432d-92c7-94c1f32f5fb6",
     "name": "Default Suite",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["3c039009-c6db-4be4-bbcd-21c4ae08efaf"]
+    "tests": ["6e29b12b-aa2c-4a9f-8c6a-39f88b8b4dc4"]
   }],
-  "urls": ["http://localhost:4000/"],
+  "urls": ["http://localhost:3000/"],
   "plugins": []
 }
