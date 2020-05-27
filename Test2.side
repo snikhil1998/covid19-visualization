@@ -1,8 +1,8 @@
 {
   "id": "905b7619-0b26-4756-bf2a-0a453518ce11",
   "version": "2.0",
-  "name": "Test2.side",
-  "url": "http://localhost:3000",
+  "name": "Test2",
+  "url": "http://localhost:4000",
   "tests": [{
     "id": "6e29b12b-aa2c-4a9f-8c6a-39f88b8b4dc4",
     "name": "test1",

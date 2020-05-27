@@ -15,7 +15,7 @@ pipeline {
 
 		stage('Test') {
 			steps {
-				sh 'PATH=/home/nikhil/covid19-visualization:$PATH selenium-side-runner Test1.side Test2.side -c "browserName=firefox moz:firefoxOptions.args=[-headless]" --output-directory=results --output-format=junit'
+				sh 'PATH=/home/nikhil/c19:$PATH selenium-side-runner Test1.side Test2.side -c "browserName=firefox moz:firefoxOptions.args=[-headless]" --output-directory=results --output-format=junit'
 			}
 		}
 

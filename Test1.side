@@ -2,7 +2,7 @@
   "id": "051c700e-a4ba-4d5a-a508-07080ba16b61",
   "version": "2.0",
   "name": "Test1",
-  "url": "http://localhost:3000",
+  "url": "http://localhost:4000",
   "tests": [{
     "id": "e3685014-5a8f-4eab-8448-30c5971e1cf2",
     "name": "test1",
